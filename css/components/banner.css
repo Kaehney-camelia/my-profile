@@ -1,0 +1,79 @@
+.banner{ 
+  background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.8)0%, rgba(0, 0, 0, 0.2)50%), url(../../images/background.jpg);
+  color: white;
+  padding:150px 0px;
+  background-size:cover;
+  background-position: center;
+}
+
+.banner h1 { 
+font-size: 50px;
+}
+
+.banner h2 {
+  font-size:30px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-bottom: 40px ;
+}
+
+.logo-header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000; 
+}
+
+.logo {
+  width: 120px; 
+  height: auto;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.top-nav {
+  position: absolute;
+  top: 28px;
+  right: 40px;
+  display: flex;
+  gap: 26px;
+  z-index: 1000;
+}
+
+.top-nav a {
+  position: relative;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  padding: 4px 0;
+  transition: color 0.25s ease, transform 0.25s ease, text-shadow 0.25s ease;
+  
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+.top-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  background: #f5c343; 
+  transition: width 0.25s ease;
+}
+
+.top-nav a:hover {
+  color: #f5c343;
+  transform: translateY(-2px);
+  text-shadow: 0 0 10px rgba(245, 195, 67, 0.7);
+}
+
+.top-nav a:hover::after {
+  width: 100%;
+}
