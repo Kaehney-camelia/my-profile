@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lora|Roboto")
 
-@Import url("Components/avatar.css");
-@Import url("Components/banner.css");
-@Import url("Components/container.css");
-@Import url("Components/button.css");
-@Import url("Components/card.css");
+@Import url("components/avatar.css");
+@Import url("components/banner.css");
+@Import url("components/container.css");
+@Import url("components/button.css");
+@Import url("components/card.css");
 
 body{	
 font-family: 'roboto' , serif;
@@ -46,4 +46,5 @@ body:before {
 .learn-btn:hover {
   background: #0046c1;
 }
+
 
